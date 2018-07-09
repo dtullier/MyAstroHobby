@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>MyAstroHobby</title>
+    <link rel="stylesheet" href="APIstyle.css">
+</head>
+<body>
+    <h1>Astronomy Powered by NASA API</h1>
+    <p class="center" id="date"></p>
+    <img class="center" id="apod_img_id" />
+    <div class="center">
+        <p id="copyright"></p>
+        <b>API URL:</b>
+        <pre id="reqObject"></pre>
+        <h3 id="apod_title"></h3>
+        <p id="apod_explaination"></p>
+        <br />
+    </div>
+    <!--<b>Return Object:</b>
+    <pre id="returnObject"></pre>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="APIscript.js"></script>
+    <script>
+        var d = new Date();
+        document.getElementById("date").innerHTML = d;
+    </script>
+</body>
+</html>

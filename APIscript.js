@@ -1,4 +1,4 @@
-var APODurl = "https://api.nasa.gov/planetary/apod?api_key=shayuSVDRqJKHHAt8ROcjvBuiZKgn8kl2mjJzi3o";
+var APODurl = "https://api.nasa.gov/planetary/apod";
 
 $.ajax({
     url: APODurl,
